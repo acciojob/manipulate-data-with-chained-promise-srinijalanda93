@@ -2,7 +2,7 @@
 function processData(inputArray) {
     return new Promise(resolve => {
         // Simulate asynchronous operation (e.g., fetching data)
-        delay(3000).then(() => {
+        delay(0).then(() => {
             resolve(inputArray);
         });
     });
